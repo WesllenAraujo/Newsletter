@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: url(./Assets/Background.png) no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+
+.card {
+    left: 50%;
+    top: 50%;
+    margin-left: -12em;
+    margin-top: -17em;
+    position: absolute;
+    width: 25em;
+}
+
+.cabecalho {
+    background: #ffffff url(./Assets/Pattern.png) no-repeat;
+    background-color: blue;
+    padding: 3.5em;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.cabecalho h1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #ffffff;
+    gap: 1.5em;
+}
+
+.group {
+    height: 23em;
+    background-color: #ffffff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.email-desc {
+    padding: 2em 0em 2em 0em;
+    margin: 0em 1.5em 0em 1.5em;
+    text-align: center;
+    color: #504f4f;
+}
+
+.email-box {
+    width: 20em;
+    height: 3.4em;
+    margin: 0em 0.7em 0em 0em;
+    padding-left: 1em;
+    font-size: 0.8em;
+    font-weight: bolder;
+    background-color: #f2f6fe;
+    border: 2px solid #e4ecfb;
+    border-radius: 10px;
+    color: #000000;
+}
+.email-box::placeholder {
+    color: #b9c3d2;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 1em 1.8em 1em 1.8em;
+    color: #ffffff;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
+span {
+    color: #989797;
+    display: block;
+    padding: 1em 1em 2em 1em;
+}
+
+.user-img {
+    display: inline-flex;
+    padding: 0em 1em 0em 0em;
+}
+
+.user-title {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.user-desc {
+    display: inline-block;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0em 0em 1.5em 0em;
+}
+
+.column {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.aspas-texto {
+    padding: 0em 2.9em 0em 1em;
+    text-align: center;
+    font-size: 0.9em;
+    color: #989797;
+}
